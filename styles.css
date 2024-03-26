@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    background-color: #f0f0f0; /* Change background color */
+}
+
+.scene {
+    display: none;
+}
+
+.scene-image {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+.options {
+    margin-top: 20px;
+}
+
+.options button {
+    font-size: 16px;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #E75992;
+    color: white;
+    transition: background-color 0.3s;
+}
+
+.options button:hover {
+    background-color: #DE94D1;
+}
+
+.hidden {
+    display: none;
+}
